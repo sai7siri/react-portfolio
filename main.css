@@ -1,0 +1,14 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+body{
+   background: #0e0e0e;
+   color: white;
+   overflow: hidden;
+   font-family: Poppins, sans-serif;
+   overflow-y: scroll;
+}

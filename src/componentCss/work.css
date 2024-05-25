@@ -1,0 +1,53 @@
+
+#works{
+   min-height: calc(100vh -80rem);
+   width: 100vw;
+   max-width: 60rem;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+#works h1{
+   margin-bottom: 1rem;
+}
+
+#work-text{
+   width: 100vw;
+   max-width: 35rem;
+   font-size: 0.75rem;
+   font-weight: 200;
+}
+
+.images{
+   width:160px;
+   height: 160px;
+   object-fit: fill;
+   background-color: white;
+   border-radius: 0.5rem;
+   display: block;
+
+}
+
+.all-imgage{
+   width: 100vw;
+   max-width: 35rem;
+   margin: 1rem auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   row-gap: 1rem;
+   column-gap: 1rem;
+   }
+
+#works button {
+   padding: 0.5rem 2rem;
+   border: none;
+   border-radius: 2rem;
+   font-weight: 400;
+   margin-top: 1rem;
+}

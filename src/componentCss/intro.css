@@ -1,0 +1,51 @@
+
+
+.intro{
+   width: 100vw;
+   height: 100vh;
+   max-width: 75rem;
+   margin: 0 auto;
+   position: relative;
+   overflow: hidden;
+}
+
+#img{
+   width: 450px;
+   height: 500px;
+   position: absolute;
+   right: 0;
+   top: 1.5rem;
+   object-fit: cover;
+}
+#intro-content{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-size: 2.5rem;
+}
+#hello{
+   font-size: 1.3rem;
+} 
+
+#sai{
+   color: yellow;
+}
+#p3{
+   margin-bottom: 5px;
+}
+
+#p4{
+   font-size: 12px;;
+}
+
+#but2{
+   border: none;
+   padding: 10px 20px ;
+   border-radius: 2rem;
+   font-weight: bold;
+}
+#briefcase{
+   margin-right: 5px;
+}
